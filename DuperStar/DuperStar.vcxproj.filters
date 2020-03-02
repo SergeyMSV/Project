@@ -16,5 +16,102 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Dev\devDuperStar.cpp">
+      <Filter>Dev</Filter>
+    </ClCompile>
+    <ClCompile Include="Dev\devDuperStar_ModDuperStar.cpp">
+      <Filter>Dev</Filter>
+    </ClCompile>
+    <ClCompile Include="Dev\devDuperStar_ModDuperStar_Board.cpp">
+      <Filter>Dev</Filter>
+    </ClCompile>
+    <ClCompile Include="Dev\devLog.cpp">
+      <Filter>Dev</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_Attribute.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_State.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_StateError.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_StateHalt.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_StateInitialize.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_StateOperation.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_StateStart.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Module\modFiniteStateMachine_StateStop.cpp">
+      <Filter>Lib.Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Utils\utilsLog.cpp">
+      <Filter>Lib.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Utils\utilsShell.cpp">
+      <Filter>Lib.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib.Utils\utilsPacketNMEAType.cpp">
+      <Filter>Lib.Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="devConfig.h" />
+    <ClInclude Include="libConfig.h" />
+    <ClInclude Include="Dev\devDuperStar.h">
+      <Filter>Dev</Filter>
+    </ClInclude>
+    <ClInclude Include="Dev\devLog.h">
+      <Filter>Dev</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Module\modFiniteStateMachine.h">
+      <Filter>Lib.Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Module\modFiniteStateMachine_Attribute.h">
+      <Filter>Lib.Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsBase.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsCRC.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsLog.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsPacket.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsPacketNMEA.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsPacketNMEAPayload.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsPatternCommand.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsPatternState.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsShell.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.Utils\utilsPacketNMEAType.h">
+      <Filter>Lib.Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DuperStar.exe.ini" />
   </ItemGroup>
 </Project>
